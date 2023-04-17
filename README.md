@@ -1,2 +1,2 @@
-# DRG-mod-save-data-backup-tool
-Simple tool to backup and restore Deep Rock Galactic mod save data
+# DRG Mod Save Data Backup Tool
+Simple batch script tool to backup and restore Deep Rock Galactic mod save data.
