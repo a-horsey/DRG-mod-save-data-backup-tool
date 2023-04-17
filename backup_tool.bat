@@ -62,6 +62,7 @@ echo.        3. Delete a backup
 echo.        4. Open DRG mod save data folder
 echo.        0. Exit
 
+set M=none
 SET /P M=Pick an option: 
 IF NOT "%M%"=="1" IF NOT "%M%"=="2" IF NOT "%M%"=="3" IF NOT "%M%"=="4" IF NOT "%M%"=="0" goto :main_menu
 
