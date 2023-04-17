@@ -80,6 +80,7 @@ cd "%script_location%\_dev\backups"
 set "backup_folder_name=Date=%Date% - Time=%time%"
 ::set name format here
 set "backup_folder_name=%backup_folder_name::=.%"
+set "backup_folder_name=%backup_folder_name:/=-%"
 IF NOT EXIST "%backup_folder_name%" mkdir "%backup_folder_name%"
 ::actual backup + message
 xcopy /y "%save_location%" "%script_location%\_dev\backups\%backup_folder_name%" /e /q >nul
